@@ -1,0 +1,17 @@
+{
+  "name": "has-send-been-pwned",
+  "version": "1.0.0",
+  "description": "Checks if send.firefox.com matches the source from github.com/mozilla/send",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm start"
+  },
+  "author": "Danny Coates",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "puppeteer": "^1.13.0",
+    "rimraf": "^2.6.3"
+  }
+}
